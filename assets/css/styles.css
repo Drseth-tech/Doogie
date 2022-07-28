@@ -1,0 +1,182 @@
+body{
+  font-family: "Montserrant", sans-serif;
+}
+
+
+.header{
+  background-color: #00B36A;
+  color: #fff;
+
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrant", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Montserrant", sans-serif;
+}
+
+ul{
+  text-decoration: none;
+  display: inline;
+
+}
+/* Navigation Brand */
+
+.navbar{
+  padding-bottom: 3.5rem;
+}
+
+.navbar-brand{
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 14px;
+}
+
+.nav-link{
+  font-size: 1rem;
+}
+
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Header images */
+.header-image{
+  width: 19%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features section */
+
+.feature{
+  text-align: center;
+  padding: 8% 0;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.fa4x{
+  color:  #00B36A;
+  font-size: 4rem;
+  padding-bottom: 8%;
+  padding-top: 8%;
+}
+
+.testimonials{
+
+  text-align: center;
+  background-color:  #00B36A;
+  color: #fff;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press{
+    background-color:  #00B36A;
+    padding-bottom: 3%;
+    text-align: center;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* Pricing Section */
+
+.pricings{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta{
+  justify-content: center;
+  text-align: center;
+  background: #00B36A;
+  padding: 6% 4%;
+  font-weight: bold;
+
+}
+
+.cta-heading{
+  font-family: "Montserrant-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  list-style: 1.5;
+  margin-bottom: 50px;
+}
+
+#footer{
+  text-align: center;
+}
+
+.ul-class-footer{
+ padding: 3% 0 0 0;
+
+}
+
+
+
+@media (max-width: 1105px) {
+  .header-image{
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+    text-align: center;
+  }
+  .h-text{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .header{
+    text-align: center;
+  }
+
+  }
+
+  @media (max-width: 988px){
+    .header-image{
+      widows: 30%;
+    }
+  }
